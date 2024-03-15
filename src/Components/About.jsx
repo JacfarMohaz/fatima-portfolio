@@ -1,8 +1,10 @@
+import km2 from "../assets/km2.jpg"
+
 function About() {
     return <div id="about">
         <div className="flex flex-col justify-center gap-10 items-center mt-8 md:flex-row md:justify-between">
             <div className="sm:ml-40 sm:w-[20%]">
-                <img className="w-[18em] rounded-2xl" src="src/assets/km2.jpg" alt="" />
+                <img className="w-[18em] rounded-2xl" src={km2} />
             </div>
             <div className="sm:mr-20 mr-8 sm:pl-0 pl-12 sm:w-[60%]">
                 <h2 className="text-2xl font-bold mb-4">I Am Modern Web Development</h2>

@@ -1,3 +1,6 @@
+import km from "../assets/km.jpg"
+
+
 function Showcase() {
     return <div className="flex flex-col justify-center items-center md:flex-row md:justify-between bg-gray-800 p-8">
         <div className="text-center sm:pl-10 md:text-left show-animate">
@@ -12,7 +15,7 @@ function Showcase() {
         </div>
 
         <div className="md:pl-56 pl-16">
-            <img className="w-[30em] rounded-2xl sm:mt-0 mt-8 mr-10" src="src/assets/km.jpg" alt="" />
+            <img className="w-[30em] rounded-2xl sm:mt-0 mt-8 mr-10" src={km} />
         </div>
     </div>
 }
