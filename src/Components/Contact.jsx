@@ -1,3 +1,6 @@
+import km from "../assets/km.jpg"
+
+
 function Contact() {
     return <div id="contact">
         <h1 className="text-3xl font-bold text-center mt-10 md:mb-2 mb-8">Contact</h1>
@@ -6,7 +9,7 @@ function Contact() {
 
             <div className="md:pl-56 pl-16">
                 <div className="rounded-full border-2 border-orange-400 w-32 ml-10 mb-4">
-                    <img className="w-32 h-32 rounded-full" src="src/assets/km.jpg" />
+                    <img className="w-32 h-32 rounded-full" src={km} />
                 </div>
 
                 <h1 className="text-3xl font-semibold">Fatima Mohamed</h1>
